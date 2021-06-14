@@ -10,7 +10,7 @@ namespace CompletarRango
     {
         public List<int> CompletarRango(List<int> rango)
         {
-            List<int> rangoFinal = new List<int>();
+           List<int> rangoFinal = new List<int>();
 
             int minNumero = rango.Min(r => r);
             int maxNumero = rango.Max(r => r);

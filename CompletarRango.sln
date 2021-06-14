@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompletarRango", "CompletarRango.csproj", "{C6EF99AE-1D6B-4679-A421-8444A878A758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestCompletarRango", "UnitTestCompletarRango\UnitTestCompletarRango.csproj", "{795E8E8C-D6FE-4758-9B84-962FA18EB05A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompletarRango", "CompletarRango\CompletarRango.csproj", "{600465E6-4325-4396-8340-619858EB0940}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C6EF99AE-1D6B-4679-A421-8444A878A758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6EF99AE-1D6B-4679-A421-8444A878A758}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6EF99AE-1D6B-4679-A421-8444A878A758}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6EF99AE-1D6B-4679-A421-8444A878A758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795E8E8C-D6FE-4758-9B84-962FA18EB05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795E8E8C-D6FE-4758-9B84-962FA18EB05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795E8E8C-D6FE-4758-9B84-962FA18EB05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795E8E8C-D6FE-4758-9B84-962FA18EB05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600465E6-4325-4396-8340-619858EB0940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600465E6-4325-4396-8340-619858EB0940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600465E6-4325-4396-8340-619858EB0940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600465E6-4325-4396-8340-619858EB0940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
